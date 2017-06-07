@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset = "utf-8">
+        <title> Weather App</title>
+        <link rel = "stylesheet" href="css/style-weather-app.css">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+        <link href="https://erikflowers.github.io/weather-icons/css/weather-icons.min.css" rel="stylesheet">
+
+        
+    </head>
+    <body>
+        <div class = 'mobile-page1'>
+            <div class= 'text-container'>
+                <div clas='text'>
+                    <h1 class='title'> WEATHER </h1>
+                    <form id="cityForm">
+                        <input type = "text" name="city" id="cityValue" placeholder= 'city'>
+                        <input type = "submit" value = "get weather">
+                    </form>
+                </div>
+            </div> 
+        </div>
+        <div class = 'mobile-page2'>
+            <div class = 'header2'>
+                <div class = left-heading-container>
+                    <div class = 'city-title'></div>
+                    <div class = 'date'></div>
+                </div>
+                <div id = 'form2'>
+                <form id="cityForm2">
+                        <input type = "text" name="city" id="cityValue2" placeholder= 'city'>
+                        <input type = "submit" value = "get weather">
+                </form>
+                </div>
+                </div>
+            <div class = 'content2'>
+                <div class='currently-content-container'>
+                    <div class = 'currently-content'>
+                        <p class = 'static-currently'> Currently</p>
+                        <div class ='currently-icon'></div>
+                        <div class= 'currently'></div>
+                    </div>
+                </div> 
+                <div class = "bigger-today-data-container">
+                    <div class = 'today-data-container'>
+                        <h3 class = 'todayHeader'>Today</h3>
+                        <div class = 'today-data'></div>
+                        <div class = 'today-summary'></div>
+                    </div>
+                </div>
+                <div class = "week-summary-container">
+                    <div class = "forecast">8 Day Forecast:</div>
+                    <div class = "week-summary"></div>
+                    </div>
+                <div class = 'weekdays_container'>
+                    <div class='weekdays'></div>
+                </div>
+                
+            </div> 
+            
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
+        <script type="text/javascript" src="vendor/moment.js"></script>
+        <script type="text/javascript" src="javascript-weather-app.js"></script>
+        
+    </body>
+</html>

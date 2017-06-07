@@ -1,0 +1,312 @@
+
+.mobile-page1{
+    width:100%;
+    height: 750px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: 
+        linear-gradient(to bottom, rgba(128,128,128, .8), rgba(128,128,128, .8)) ,
+            url("clouds.jpg");
+    background-size: cover;
+}
+.text-container{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color:rgba(255,255,255,0.75);
+    border-radius: 50%;
+}
+
+
+.title{
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 3px;
+}
+
+
+.mobile-page2{
+    min-width: 1200px;
+    width:100%;
+}
+    
+.header2{
+    min-width: 1200px;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    background-color: black;
+    
+}
+
+.left-heading-container{
+    width: 50%;
+    height: 150px;
+    text-align: left;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    padding-left: 30px;
+}
+    
+.city-title {
+    font-size: 22px;
+    width: 100%;
+    
+}
+.date{
+    font-size: 24px;
+    width: 100%;
+    
+}
+
+#form2{
+    padding: 8px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.content2{
+    width: 100%;
+    min-width: 1200px;
+    height: 1550px;
+    background-image: 
+/*        linear-gradient(to bottom, rgba(128,128,128, .8), rgba(128,128,128, .8)) ,*/
+            url("clouds.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.static-currently{
+    margin: 0px;
+    color: black;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 8px;
+    
+}
+
+.currently{
+    width: 100%;    
+    color: black;
+    text-align: center;
+    margin: 0px;
+    
+    
+}
+
+.apparentTemp{
+    color: black;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 4px;
+    font-size: 56px; 
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.currently-icon{
+    
+    color: black;
+    text-align: center;
+    padding-top:10px;
+    font-size: 68px;
+}
+
+.icon-text{
+    color:black;
+    font-family:'Russo One', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.weekdays_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.weekdays{
+    
+    color:white;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    min-width: 1000px;
+    max-width: 1200px;
+    
+}
+
+.bigger-today-data-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    
+    
+}
+
+
+.todayHeader{
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+}
+
+.currently-content-container{
+    display: flex;
+    justify-content: center;
+}
+
+.currently-content{
+    width: 70%;
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.75);
+    border-radius: 20px;
+    
+}
+.day-container{
+    border-radius: 20px;
+    width: 450px;
+    height: 200px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 10px;
+
+    
+}
+.weekday-name{
+    margin-top:0;
+
+}
+.minData{
+    margin-bottom: 0;
+}
+.day{
+    height: 124px;
+    margin: auto;
+    padding-top: 38px;
+    padding-bottom: 38px;
+
+}
+
+.today-data-container{
+    width: 70%;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 3px;
+    background-color:rgba(255,255,255,0.75);
+    border-radius: 20px;
+    
+}
+
+.bigger-week-summary-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.week-summary-container{
+    margin-top: 20px;
+    width: 920px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: 'Russo One',sans-serif;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    
+
+}
+
+.forecast{
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.week-summary{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+@media only screen and (max-width: 480px){
+    
+    .mobile-page1{
+        width:100%;
+/*        min-width: 480px;*/
+        margin: auto;
+    }
+    
+    .mobile-page2{
+        min-width: 480px;
+        margin: 0;
+    }
+    .city-title {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+    .header2{
+        width: 100%;
+        min-width: 480px;
+        display:block;
+        height: 175px;
+    }
+    
+    .left-heading-container{
+        width: 100%;
+        text-align: center;
+        height: 110px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #form2{
+        display:flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .content2{
+        width: 100%;
+        min-width: 480px;
+        height: 2400px;
+        
+    }
+    
+    .day-container{
+        height: 200px; 
+        width: 400px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 10px;
+        
+
+    }
+    
+    .day{ height: 124px;
+    margin: auto;
+    padding-top: 38px;
+    padding-bottom: 38px;
+        
+    }
+    
+    .bigger-week-summary-container{
+        width: 100%;
+    }
+    
+    .week-summary-container{
+        width: 400px;
+    }
+
+
